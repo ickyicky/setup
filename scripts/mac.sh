@@ -12,6 +12,7 @@ setup_macos() {
 
 install_macos_casks() {
 	brew install --cask nextcloud spotify discord messenger openvpn-connect docker maccy geekbench sanesidebuttons amethyst scroll-reverser adguard
+	brew install --HEAD neovim
 	brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 }
 
