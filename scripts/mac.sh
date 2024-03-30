@@ -12,7 +12,7 @@ setup_macos() {
 
 install_macos_casks() {
 	brew install --cask nextcloud discord messenger openvpn-connect docker maccy geekbench sanesidebuttons amethyst scroll-reverser aldente betterdisplay hiddenbar maccy sanesidebuttons scroll-reverser
-	brew install --HEAD neovim
+	brew install neovim
 	brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 }
 
